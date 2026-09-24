@@ -1,3 +1,56 @@
-node_modules
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+**/.env
+.env.*
+**/.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 /.logs
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build / runtime output
+coverage/
+dist/
+build/
+out/
+.tmp/
+tmp/
+
+# Test artifacts
+curriculum-results.xml
+*.xml
+
+# Sensitive local project files
 config/token.txt
+config/state.json
+**/token.txt
+**/state.json
+
+# Common generated files
+*.pid
+*.sqlite
+*.db
+
+# Optional caches
+.npm/
+.eslintcache
+
+# Local generated data
+**/package-lock.json
